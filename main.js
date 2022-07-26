@@ -31,12 +31,12 @@ const view = {
 function start(quiz) {
     
 let score = 0 //initialize score
-/*
-for(const [question,answer] of quiz){
-    const response = prompt (question);
+
+for(const [question, answer] of quiz) {
+    const response = prompt(question);
     check (response, answer);
 };
-*/
+
 
 
 gameOver()
